@@ -1,0 +1,146 @@
+body{
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}
+.background-area{
+  background-image: url(images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.background-item h1{
+  color: white;
+  font-size: 50px;
+}
+.background-item{
+  color: white;
+}
+section a{
+  text-decoration: none;
+  padding: 10px 20px;
+  background-image: linear-gradient(blue, yellow);
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+}
+/*=============================*/
+.donate-area{
+  text-align: center;
+  margin-bottom: 100px;
+}
+.donate-area p{
+  color: gray;
+}
+/*==============================*/
+.donate-taka{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.donate-item{
+ margin-right: 70px;
+ background-color: rgba(238, 226, 226, 0.678);
+ padding: 10px;
+}
+#donate-id{
+  border: 1px solid rgb(240, 104, 80);
+  color: tomato;
+  background-color: rgb(201, 180, 180);
+}
+/*=======================================*/
+.hr-area hr{
+  width: 600px;
+}
+.hr-area p{
+  color: gray;
+}
+.hr-area{
+  text-align: center;
+  margin-bottom: 100px;
+}
+/*========================================*/
+.flexible-container{
+  display: flex;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-bottom: 100px;
+}
+.flexible-item{
+  padding: 20px;
+  background-color: rgb(172, 206, 206);
+  margin-right: 10px;
+  border-radius: 10px;
+}
+#flex-item-1{
+  background-color: rgb(211, 130, 130);
+}
+#flex-item-2{
+  background-color: rgb(218, 203, 183);
+}
+/*==========================================*/
+.flexible-contant{
+  display: flex;
+   margin-left: 12%;
+   margin-right: 15%;
+  margin-bottom: 80px;
+}
+.half-width{
+  width: 50%;
+  padding: 10px;
+  
+}
+.half-width img{
+  width: 100%;
+}
+#flex-content-1{
+  padding-right: 5%;
+  padding-top: 50px;
+}
+#flex-content-2{
+  padding-left: 5%;
+  padding-top: 50px;
+}
+/*=========================*/
+.get-update{
+  text-align: center; 
+  margin-bottom: 100px;
+}
+.get-update p{
+  color: gray;
+}
+/*===========================*/
+form{
+  text-align: center;
+  margin-bottom: 100px;
+  background-color: rgb(230, 203, 168);
+  padding: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+form input{
+  padding: 10px 20px;
+}
+form button{
+  padding: 10px 20px;
+  margin-left: -5px;
+  background-color: brown;
+  font-weight: 600;
+  color: wheat;
+}
+/*===============================*/
+footer{
+  text-align: center;
+  background-color: black;
+  padding: 15px;
+}
+footer h1{
+  color: brown;
+  font-style: oblique;
+}
+footer p{
+  color: gray;
+}
